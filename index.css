@@ -1,0 +1,179 @@
+html, body{
+    background-color: #111729;
+    overflow:hidden;
+}
+
+.backImg{
+    position: relative;
+    left: 60%;
+    top: 6rem;
+}
+@font-face{
+    src: url(./fonts/Outfit-VariableFont_wght.ttf);
+    font-family: xd;
+}
+
+
+.inputQR:hover{
+    border:2px solid #3662E3;
+}
+
+.inputQR:focus{
+    outline: none;
+}
+
+.QRLogo{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.QRLogo2{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.QR{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #F2F5F9;
+    padding: 30px;
+    border-radius: 40px;
+
+    display: none;
+}
+
+.inputQR{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 2%;
+    border-radius: 10px;
+    background-color: #111729;
+    opacity: .9;
+    color: #F2F5F9;
+    border:2px solid #3662E3;
+    font-family: xd;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.generateBtn{
+    position: absolute;
+    top: 50%;
+    left: 68.5%;
+    transform: translate(-50%, -50%);
+    background-color: #3662E3;
+    width: 15%;
+    height: 6%;
+    border-radius: 10px;
+    color: #F2F5F9;
+    font-family: xd;
+    border: none;
+}
+
+.generateBtn:hover{
+    cursor: pointer;
+}
+
+.backQR{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3662E3;
+
+    padding: 185px;
+    border-radius: 100%;
+
+    opacity: .2;
+}
+
+.btns{
+    position: absolute;
+    padding: 20px;
+    width: 150px;
+    transform: translate(-50%, -50%);
+    background-color: #3662E3;
+    border: none;
+    border-radius: 15px;
+    color: #F2F5F9;
+    font-family: xd;
+    font-size: 15px;
+}
+
+.btns:hover{
+    cursor: pointer;
+}
+
+.download{
+    left: 30%;
+}
+.share{
+    left: 70%;
+}
+
+@media (max-width: 415px){
+    .backImg{
+        left: 40%;
+        width: 100%;
+    }
+
+    .QRLogo2{
+        position: absolute;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .generateBtn{
+        left: 68%;
+        width: 20%;
+    }
+
+    .QRLogo{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .QR{    
+        background-color: #F2F5F9;
+        padding: 20px;
+        border-radius: 40px;
+    
+        display: none;
+
+        width: 150px;
+    }
+
+    .backQR{
+        padding: 115px;
+        border-radius: 100%;
+    
+        opacity: .2;
+    }
+
+    .btns{
+        top: 65%;
+        padding: 15px;
+        width: 120px;
+        transform: translate(-50%, -50%);
+        background-color: #3662E3;
+        border: none;
+        border-radius: 15px;
+        color: #F2F5F9;
+        font-family: xd;
+        font-size: 15px;
+    }
+
+    
+}

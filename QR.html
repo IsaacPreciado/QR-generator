@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">         
+    </script>
+
+    
+</head>
+<body>
+
+    <img src="./images/img1.svg" alt="backImg" class="backImg">
+    <img src="./images/img2.svg" alt="QRLogo" class="QRLogo2">
+    <div>
+        <div class="backQR"></div>
+        <div id="contenedor"></div>
+
+        <button class="btns download" id="downloadBtn">Download <img src="./images/dwnl.png" alt="img" style="width: 11%;"></button>
+
+        <button class="btns share" id = "shareBtn">Share <img src="./images/share.png" style="width: 11%;"></button>
+        <a download="QRCode.png" id = "link"></a>
+    </div>
+    
+    <script src="QR.js"></script>
+    
+</body>
+</html>
